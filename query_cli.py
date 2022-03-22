@@ -36,7 +36,7 @@ def load_config():
         if opt == "-h":
             show_help()
         if opt in ("--config", "-c"):
-            with open(f"./{arg}", "r") as f:
+            with open(f"{arg}", "r") as f:
                 conf = f.read()
                 config_dict = toml.loads(conf)
         elif opt in ("--help"):
