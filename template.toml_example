@@ -1,0 +1,3 @@
+#connection str
+db_connection="host=x1 dbname=x2 user=x3 password=x4"
+sql=""" multiline"""
